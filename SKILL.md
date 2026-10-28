@@ -7,6 +7,10 @@ description: Analyze procurement and construction tender documents. Use for bid 
 
 Prepare an evidence-based procurement analysis in Russian for the requested audience. For a full bid decision, use [report-template.md](assets/report-template.md). Keep its headings, order and tables. Replace placeholders with results or a clear status. Scale the detail to the project. For a partial request, cover only the requested areas and dependencies needed to answer them. Use relevant template sections if useful. Do not give a full bid decision unless requested or supported by sufficient evidence.
 
+## Report style
+
+Apply the principles of ASD-STE100 to the Russian report as a practical guide, not as a claim of standard compliance. Aim for simple words, short sentences, one main idea per sentence, active voice and consistent terms. Keep technical and legal terms when needed for accuracy. State who must act and what must be done. Use exact dates, units, conditions and uncertainty. Do not simplify away material facts or evidence. Avoid repeated explanations, introductory phrases and needless detail. State a fact once and refer to its source or risk ID in other sections. Use headings and tables from the full report template. Avoid bold text in the report. For a partial report, keep the same clear style and adapt the format to the request.
+
 ## Limits
 
 - Follow system and environment rules. Explicit user instructions take priority over this skill. Use permissions already given. Continue all work that does not depend on missing information.
