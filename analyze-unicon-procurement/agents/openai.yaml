@@ -1,0 +1,13 @@
+interface:
+  display_name: UNICON procurement analysis
+  short_description: Tender, engineering, cost, finance and contract review
+  default_prompt: Use $analyze-unicon-procurement to analyze the attached procurement for UNICONЗСК and prepare a bid recommendation in Russian.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
