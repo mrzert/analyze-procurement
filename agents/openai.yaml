@@ -1,7 +1,7 @@
 interface:
-  display_name: UNICON procurement analysis
+  display_name: Procurement analysis
   short_description: Tender, engineering, cost, finance and contract review
-  default_prompt: Use $analyze-unicon-procurement to analyze the attached procurement for UNICONЗСК and prepare a bid recommendation in Russian.
+  default_prompt: Use $analyze-procurement to analyze the attached procurement and prepare a bid recommendation in Russian.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
