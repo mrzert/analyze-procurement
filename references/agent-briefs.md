@@ -4,6 +4,8 @@
 
 Give each agent the role, shared brief, user limits, external-search scope and a separate output location. Give it the relevant documents, sections and drawing areas, source IDs and versions, plus related terms and cross-references. Give it access to the original files for checks. Do not give only a summary or isolated excerpts. Give it this file and evidence.md. Give calculations.md to S and F. Agents work only on their assigned role. They do not spawn agents, alter originals, or edit the shared report.
 
+Each role must run as a separate agent when delegation is permitted. If the role has no task within the user scope, return «Нет работы в рамках запроса» and a short reason. Do not invent a task or expand the user scope. If documents needed for a relevant task are missing, report the missing documents and the limit.
+
 Each agent returns its results in Russian. List the sources read and their limits. Give facts and coordinates, inputs and formulas. Mark the status of conclusions, assumptions and conflicts. For each risk, give evidence, effect, level, measure and closure condition. Separate customer questions from internal questions. State handoffs and effects on the decision. Give brief reasons, not private reasoning. Do not retell the full package.
 
 | Role | Model | Effort | Handoff |
