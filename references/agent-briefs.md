@@ -8,14 +8,14 @@ Each agent returns its results in Russian. List the sources read and their limit
 
 | Role | Model | Effort | Handoff |
 | --- | --- | --- | --- |
-| T: tender | gpt-6.1-sol | high | Eligibility and bid actions |
-| E: engineering | gpt-6-astra | high | Quantities to S, costs to F, access and data liability to L |
-| S: estimate | gpt-6.1-sol | high | Cost, VAT, coverage and uncertainty to F |
-| F: finance | gpt-6-astra | high | Economics and funding to coordinator |
-| L: contract | gpt-6-astra | high | Contract terms and risks to F and coordinator |
-| V: reviewer | gpt-6-astra | xhigh | Findings to coordinator |
+| T: tender | gpt-6.1-sol | medium | Eligibility and bid actions |
+| E: engineering | gpt-6.1-terra | medium | Quantities to S, costs to F, access and data liability to L |
+| S: estimate | gpt-6.1-sol | medium | Cost, VAT, coverage and uncertainty to F |
+| F: finance | gpt-6.1-sol | medium | Economics and funding to coordinator |
+| L: contract | gpt-6.1-sol | medium | Contract terms and risks to F and coordinator |
+| V: reviewer | gpt-6-astra | high | Findings to coordinator |
 
-These are target settings, not proof of execution. Use them only where the environment allows model and effort selection. Record actual settings when known. The coordinator retains its current model.
+These are starting settings, not proof of execution or measured optimality. Compare quality, cost and time on representative procurements before changing them. Use them only where the environment allows model and effort selection. Record actual settings when known. The coordinator retains its current model.
 
 ## T — tender specialist
 
