@@ -1,6 +1,6 @@
 # Evidence and sources
 
-Keep a register: `ID | file/URL | title | date and version | parts read | limits`. Preserve original file names and work on copies. Update affected conclusions when the package changes. Keep separate project cards and calculation bases for different lots or objects. Do not transfer prices, quantities or dates. Do not combine lots without a request to compare them.
+Keep a register: `ID | file/URL | title | date and version | parts read | limits`. Preserve original file names and work on copies. Assign one stable ID per document before handoffs. Reconcile any agent-local IDs to the shared register before release. Cite the ID and coordinates for material claims in every output format. If the same source has different versions, distinguish them in the register. Update affected conclusions when the package changes. Keep separate project cards and calculation bases for different lots or objects. Do not transfer prices, quantities or dates. Do not combine lots without a request to compare them.
 
 Use verifiable coordinates. PDF: file ID, PDF page, printed page and clause when known. DOCX: heading, clause, table and row. Give page only if checked in a rendering. XLSX: sheet, cells and item. Distinguish formulas from values and do not treat stale cached values as verified. Drawings: drawing code, sheet, detail and section. User statements: U01, message date, and whether fact, limit or scenario. If a source has no numbering, use a heading, exact row or cell, or a short quotation with the file name. State when coordinates cannot be recovered. Never invent them.
 
@@ -13,6 +13,8 @@ Use verifiable coordinates. PDF: file ID, PDF page, printed page and clause when
 | No data | Gap in the reviewed package and its effect. |
 | Conflict | Both records and sources. Do not average them. |
 | Not applicable | Explain why. Do not use for missing data. |
+
+If using local copies of a remote package, state what was compared. Matching paths and sizes does not prove byte-for-byte identity or matching versions. Treat unread or unverified files as limits.
 
 A missing term in the available material is not proof that an obligation does not exist. Distinguish a document that is missing, unreadable, or read without finding the information. Distinguish a cited statement that the contract provides no advance from missing advance information.
 
